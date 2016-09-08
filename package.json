@@ -1,0 +1,23 @@
+{
+  "name": "eleganza",
+  "version": "1.0.0",
+  "description": "Maquetacion web Eleganza",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mager19/eleganza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mager19/eleganza/issues"
+  },
+  "homepage": "https://github.com/mager19/eleganza#readme",
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "gulp": "^3.9.1"
+  }
+}
