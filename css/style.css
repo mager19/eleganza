@@ -101,4 +101,25 @@ img{
 }
 
 
+.navbar-default {
+    background-image: -webkit-linear-gradient(top, #fff 0%, #fff 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #fff 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+    background-image: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #fff 100%)!important;
+    border-radius: 0px!important;
+    -webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, .15), 0 0px 0px rgba(0, 0, 0, .075)!important;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+}
 
+
+.navbar-default {
+    background-color: #fff!important;
+    border-color: #fff!important;
+    
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:#DBDCE0!important;
+    font-size:1.2em;  
+}

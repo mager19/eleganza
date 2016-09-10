@@ -1,2 +1,0 @@
-# eleganza
-Maquetacion web Eleganza
