@@ -16,7 +16,7 @@ body{
 	line-height:30px;
 	color:#4d4d4d;
 	background: #fff;
-	font-family: Lato;
+		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	
@@ -86,10 +86,13 @@ img{
 }
 
 
+
+
 /*Header*/
 .header__logo{
 	
 	padding-top: 1em;
+	padding-bottom: 1em;
 	text-align: center;
 
 }
@@ -97,7 +100,13 @@ img{
 /*Nav*/
 
 .header__nav{
+	border-top:2px solid #DBDCE0;
+/*	font-family: 'Didact Gothic', sans-serif;*/
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	
+	font-size: 1em;
 	text-align: center;
+
 }
 
 
@@ -121,5 +130,67 @@ img{
 
 .navbar-default .navbar-nav > li > a {
     color:#DBDCE0!important;
-    font-size:1.2em;  
+    font-size:1.6em;  
+    font-weight: 100; 
+}
+
+.nav.navbar-nav{
+	margin-left: -2em;
+	width: 105%;
+}
+
+.nav.navbar-nav li{
+	margin-right: 2.5em;
+}
+
+#bs-example-navbar-collapse-1 > ul > li:nth-child(8){
+	margin-right: 0.5em;
+	margin-top: -5px;
+
+}
+
+.socials{
+	position: absolute;
+	left: 82%;
+	top:80%;
+}
+
+.socials ul li{
+	display: inline-block;
+	font-size: 1.9em;
+	margin-right: 1em;
+}
+
+.socials ul li a{
+	color:#B9B9C3;
+} 
+
+
+#footer{
+	padding-top: 4em;
+	text-align: center;
+
+}
+
+#footer img{
+	opacity: 0.5;
+}
+
+.footer__item{
+	border-right:1px solid #DBDCE0;
+	min-height: 7.5em;
+	padding-right: 2em;
+}
+
+#footer > div > div > div.col-md-10.col-md-offset-1 > div:nth-child(3) > div{
+	border-right: none;
+}
+
+.footer__copyright h3{
+	color:#BEBEC8;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 3.5em;
+	padding-bottom: 0.5em;
 }
