@@ -1,13 +1,5 @@
 
 
-
-/* Fonts*/
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
-
-
-
-
 /* ESTILOS GENERALES*/
 
 
@@ -16,7 +8,7 @@ body{
 	line-height:30px;
 	color:#4d4d4d;
 	background: #fff;
-		font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	
@@ -85,7 +77,10 @@ img{
 	padding: 4em 0em;
 }
 
-
+@font-face {
+    font-family: Zapfino;
+    src: url("../fonts/Zapfino.ttf");
+}
 
 
 /*Header*/
@@ -101,9 +96,7 @@ img{
 
 .header__nav{
 	border-top:2px solid #DBDCE0;
-/*	font-family: 'Didact Gothic', sans-serif;*/
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	
+	font-family: 'Muli', sans-serif;
 	font-size: 1em;
 	text-align: center;
 
@@ -150,6 +143,7 @@ img{
 
 }
 
+
 .socials{
 	position: absolute;
 	left: 82%;
@@ -189,7 +183,7 @@ img{
 
 .footer__copyright h3{
 	color:#BEBEC8;
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 1em;
 	font-weight: 600;
 	margin-top: 3.5em;
@@ -207,6 +201,48 @@ img{
 
 .slide img{
 	width: 100%;
+}
+
+
+/*Nosotros*/
+
+.nosotros__left{
+	padding-top: 45%;
+}
+
+.nosotros__left h3{
+	color:#59585D;
+	font-family: Zapfino;
+	font-size: 5em;
+	text-align: right;
+}
+
+.nosotros__left p{
+	color:#5A5A5C;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	
+	margin-top: -2em;
+	text-transform: uppercase;
+	text-align: right;
+	width: 100%;
+	
+}
+
+.nosotros__left h4{
+	color:#59585D;
+	font-family: Zapfino;
+	font-size: 1.5em;
+	line-height: 2em;
+	margin-top: 0.8em;
+	text-align: right;
+
+}
+
+
+.nosotros__right img{
+	margin-bottom: 2em;
 }
 
 
