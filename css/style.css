@@ -242,8 +242,183 @@ img{
 
 
 .nosotros__right img{
+	cursor: pointer;
 	margin-bottom: 2em;
 }
+
+
+.nosotros__right:hover .nosotros__right__overlay{
+	background-color: #94a9ae;
+}
+
+.nosotros__right__overlay{
+	
+	width: 90%;
+	height: 88%;
+	position: absolute;
+	-webkit-transition: all 2 linear;
+	-moz-transition: all 2 linear;
+	-o-transition: all 2 linear;
+	-ms-transition: all 2 linear;
+	transition: all 2 linear;
+
+}
+
+.box    {  width: 100%;
+           height: 16em;
+     	   margin-bottom: 1.5em;
+  		   background-size:cover;
+  		   cursor: pointer;
+		   overflow:hidden;
+
+		}
+
+
+.overlay{  /*background:rgba(0,0,0,.75);*/
+		background: rgba(185,220,226,0.6);
+           text-align:center;
+           padding:45px 0 66px 0;
+           opacity:0;
+           width: 100%;
+           height: 100%;
+           	-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+
+     }
+
+.box:hover .overlay {
+               opacity:1;}
+
+
+.plus{
+	color:#5B5B5D;
+	padding: 62% 0.75em 0 0.25em;
+	text-align: right;
+
+}
+
+.plus h3{
+	font-size: 1.5em;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+}
+
+.plus h4{
+	font-size: 1.3em;
+	font-family: 'Muli', sans-serif;
+	
+}
+
+/* BOXES */
+#box1{
+	background:url("../img/team/integrante1.jpg");
+	background-size:cover;
+	-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+	
+}
+
+#box1:hover{
+	background:url("../img/team/integrante1b.jpg");
+	background-size:cover;
+	
+}
+
+
+#box2{
+	background:url("../img/team/integrante2.jpg");
+	background-size:cover;
+		-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+	
+}
+
+#box2:hover{
+	background:url("../img/team/integrante2b.jpg");
+	background-size:cover;
+	
+}
+
+
+#box3{
+	background:url("../img/team/integrante3.jpg");
+	background-size:cover;
+		-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+	
+}
+
+#box3:hover{
+	background:url("../img/team/integrante3b.jpg");
+	background-size:cover;
+	
+}
+
+
+#box4{
+	background:url("../img/team/integrante4.jpg");
+	background-size:cover;
+		-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+	
+}
+
+#box4:hover{
+	background:url("../img/team/integrante4b.jpg");
+	background-size:cover;
+	
+}
+
+
+#box5{
+	background:url("../img/team/integrante5.jpg");
+	background-size:cover;
+		-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+	
+}
+
+#box5:hover{
+	background:url("../img/team/integrante5.jpg");
+	background-size:cover;
+	
+}
+
+#box6{
+	background:url("../img/team/integrante6.jpg");
+	background-size:cover;
+		-webkit-transition: 0.5s all linear;
+	-moz-transition: 0.5s all linear;
+	-ms-transition: 0.5s all linear;
+	-o-transition: 0.5s all linear;
+	transition: 0.5s all linear;
+	
+}
+
+#box6:hover{
+	background:url("../img/team/integrante6b.jpg");
+	background-size:cover;
+	
+}
+
 
 
 
@@ -303,6 +478,38 @@ img{
 	.socials ul li{
 		font-size: 1.1em;
 	}
+
+	.box{  
+		height: 13em;
+    }
+
+
+	.plus{
+		color:#5B5B5D;
+		padding: 50% 0.75em 0 0.25em;
+		text-align: right;
+
+	}
+
+	.plus h3{
+		font-size: 1.2em;
+	}
+
+	.plus h4{
+		font-size: 1em;
+	}
+
+	.nosotros__left p{
+		font-size: 1.1em;
+		line-height: 1.2em;
+		margin-top: -3em;
+	}
+
+	.nosotros__left h4{
+		font-size: 1.4em;
+	}
+
+
 	
 }
 
@@ -311,8 +518,37 @@ img{
 	
 	.footer__item{
 		border-right:0px;
-		
 	}
+
+	.header__nav{
+		padding: 1em 0;
+	}
+
+	.nosotros__left {
+    	padding-top: 15%;
+    	padding-left: 2em!important;
+    	padding-right: 2em!important;
+	}
+
+	.box{  
+		width: 100%;
+        height: 21em;
+     	margin-bottom: 1.5em;
+  	}
+
+
+	.plus{
+		padding: 63% 0.75em 1em 0.25em;
+	}
+
+	.plus h3{
+		font-size: 2em;
+	}
+
+	.plus h4{
+		font-size: 1.5em;
+	}
+
 }
 
 @media screen and (max-width:480px) {
@@ -321,8 +557,9 @@ img{
 	}
 
 	.header__nav {
-    	border-top: 0px solid #DBDCE0;
-    	margin-top: 1.3em;
+	    border-top: 0px solid #DBDCE0;
+	    margin-top: 0.1em;
+	    padding: 2em 0;
 	}
 
 	.nav.navbar-nav {
@@ -350,4 +587,47 @@ img{
 	#footer img{
 		width: 40%;
 	}
+
+	.nosotros__left {
+	    padding-top: 5%;
+	    padding-left: 2em!important;
+	    padding-right: 2em!important;
+	}
+
+	.nosotros__left h3 {
+        font-size: 3em;
+    	text-align: center;
+	}
+	
+	.nosotros__left p {
+    	font-size: 1em;
+        margin-top: -2em;
+    	text-align: center;
+	}
+
+	.nosotros__left h4 {
+    	font-size: 1em;
+    	padding: 0.6em 0;
+	}
+
+	.box{  
+		width: 100%;
+        height: 13em;
+     	margin-bottom: 1.5em;
+  	}
+
+  	.plus{
+		padding: 63% 0.5em 1em 0.25em;
+	}
+
+	.plus h3{
+		font-size: 1.2em;
+		width: 100%;
+	}
+
+	.plus h4{
+		font-size: 0.8em;
+	}
+
+
 }
