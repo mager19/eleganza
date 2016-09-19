@@ -609,8 +609,189 @@ img{
 }
 
 
+/*Post*/
+
+#blog{
+	font-family: 'Muli', sans-serif;
+	margin-top: 2em;
+}
+
+.blog__left{
+	padding: 0 1em;
+}
+
+.blog__right{
+	padding: 0 1em;
+	text-align: center;
+}
+
+.post{
+	margin-bottom: 5em;
+}
+
+.post h3{
+	border-bottom: 2px solid #C8C9CE;
+	color: #B3DFE0;
+	font-size: 1.8em;
+	font-weight: 300;
+	padding: 0.3em 0;
+}
+
+.post h4{
+	color:#6F6F71;
+	padding: 0.5em 0;
+}
+
+.post p{
+	color:#6F6F71;
+	font-size: 1.2em;
+	padding: 1.2em 0;
+}
+
+.abajo{
+	border-top: 2px solid #C8C9CE;	
+	padding-bottom: 1.5em;
+}
+
+.post h5{
+	color: #B3DFE0;
+	padding: 1em 0;
+}
+
+.button{
+	padding: 1em 0 3em 0;
+}
+
+.post > .button a{
+	background-color: #B3DFE0;
+	color:#fff;
+	font-size: 1.3em;
+	padding: 0.4em 3em;
+}
 
 
+.blog__right p{
+	font-size: 1.2em;
+	padding: 1.5em 3em;
+}
+
+.newsletter h3{
+	border-bottom: 2px solid #C8C9CE;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.newsletter input{
+	border:2px solid #C8C9CE;
+	padding: 0.5em 2em;
+	width: 100%;
+}
+
+.newsletter input[type=submit]{
+	background-color: #B3DFE0;
+	border:0px!important;
+	color:#fff;
+	font-size: 1.3em;
+	margin-top: 1em;
+	padding: 0.6em 3em;
+
+}
+
+.buscar{
+	margin-top: 5em;
+	text-align: left!important;
+}
+
+.buscar h3{
+	border-bottom: 2px solid #C8C9CE;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.buscar input{
+	border:2px solid #C8C9CE;
+	padding: 0.5em 2em;
+	margin-top: 1em;
+}
+
+#lupa{
+	padding-top:1.5em;
+}
+
+#lupa a{
+	background-color: #B7DCE2!important;
+	color: #fff;
+	width: 10em;
+    height: 10em;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding:12px 14px;
+}
+
+.categorias{
+	margin-top: 8em;
+	
+}
+
+.categorias h3{
+	border-bottom: 2px solid #C8C9CE;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.categorias ul{
+	margin-top: 3em;
+
+}
+
+.categorias ul li{
+	border-bottom: 1px solid #C8C9CE;
+	color:#B3DFE0;
+	font-size: 1.2em;
+	padding: 1em 0;
+	text-align: left;
+}
+
+/*paginacion*/
+.paginacion{
+	border-bottom: 2px solid #C8C9CE;
+	padding-bottom: 3em;
+}
+
+.paginacion ul li{
+	border:2px solid #C8C9CE;
+	color:#5A5A5C;
+	display: inline-block;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.3em;
+	padding: 0.7em 0.5em;
+	margin-right: 0.5em;
+}
+
+.sobre{
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+}
+
+
+.sobre h3{
+	
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+
+.sobre ul li{
+	border-bottom: 1px solid #C8C9CE;
+	font-size: 1.2em;
+	padding: 0.8em 0;
+	text-align: left;
+}
+
+.sobre ul li a{
+	color:#B3DFE0;
+}
 
 /***************mediaqueries*******************/
 @media screen and (max-width:1366px) {
