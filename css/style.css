@@ -526,72 +526,90 @@ img{
 
 /* Testimonios */
 
-.testimonio__item{
-	color: #595A5C;
-	text-align: center;
-	height: 17.95em;
+
+.item__testimonio{
+	 height: 18.45em;
+	 text-align: center;
+	 width: 100%;
 }
 
-.testimonio__info{
-	padding: 1em 1em;
+.oscuro{
+	background-color: #B7DCE2;
 }
 
-.testimonio__item span{
+.item__testimonio span{
 	font-size: 4em;
 	font-family: 'Muli', sans-serif;
 
 }
 
-.testimonio__item h3{
+.item__testimonio h3{
 	font-family: 'Muli', sans-serif;
 	margin-bottom: 0.5em;
 }
 
 
-.testimonio__item h4{
+.item__testimonio h4{
 	font-family: Zapfino;
 	font-weight: 600;
 	margin-top: 3em;
 }
 
-.testimonio__item p{
+.item__testimonio p{
 	color: #595A5C!important;
 	font-family: 'Muli', sans-serif;
 	font-size: 0.9em;
 	line-height: 1.2em;
+	padding: 0 3em;
 
 }
 
-.testimonio__img img{
-	margin-left: 2px;
+.elitem{
+	margin: 0!important;
+	padding: 0!important;
 }
 
-.azul{
 
-	background-color: #B7DCE2;
-	
+/*testimonio*/
+#testimonio1{
+	background-image: url("../img/testimonios/testimonio1.jpg");
+	background-size: cover;
 }
 
-.blanco p{
-	padding: 2em!important;
+#testimonio2{
+	background-image: url("../img/testimonios/testimonio2.jpg");
+	background-size: cover;
 }
 
-.nopadding {
-   padding: 0 !important;
-   margin: 0 !important;
+
+#testimonio3{
+	background-image: url("../img/testimonios/testimonio3.jpg");
+	background-size: cover;
 }
 
-.segundaf{
-	height: 17.82em!important;
+#testimonio4{
+	background-image: url("../img/testimonios/testimonio4.jpg");
+	background-size: cover;
 }
 
-.segundaf p{
-	padding: 0.5em!important;
+
+/*press*/
+
+.press__item{
+	margin-bottom: 3em;
 }
 
-.r{
-	margin-top: -1px!important;
+.press__item h3{
+	color:#5A595E;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-top: 0.5em;
+	text-align: center;
 }
+
+
+
 
 
 /***************mediaqueries*******************/
@@ -797,21 +815,14 @@ img{
 		width: 91.8%;
 	}
 	
-	.testimonio__item{
-		height: auto;
-		margin-top: 2em;
-	}
 
-	.testimonio__item img{
-		width: 70%;
-	}
-
-	.testimonio__item span img{
-		display: none;
-	}
 
 	.azul{
 		background-color: #fff;
+	}
+
+	.elitem{
+		    margin-left: 16.66666667%!important;
 	}
 
 
