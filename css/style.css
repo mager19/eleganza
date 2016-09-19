@@ -522,6 +522,78 @@ img{
 	background-size: cover;
 }
 
+
+
+/* Testimonios */
+
+.testimonio__item{
+	color: #595A5C;
+	text-align: center;
+	height: 17.95em;
+}
+
+.testimonio__info{
+	padding: 1em 1em;
+}
+
+.testimonio__item span{
+	font-size: 4em;
+	font-family: 'Muli', sans-serif;
+
+}
+
+.testimonio__item h3{
+	font-family: 'Muli', sans-serif;
+	margin-bottom: 0.5em;
+}
+
+
+.testimonio__item h4{
+	font-family: Zapfino;
+	font-weight: 600;
+	margin-top: 3em;
+}
+
+.testimonio__item p{
+	color: #595A5C!important;
+	font-family: 'Muli', sans-serif;
+	font-size: 0.9em;
+	line-height: 1.2em;
+
+}
+
+.testimonio__img img{
+	margin-left: 2px;
+}
+
+.azul{
+
+	background-color: #B7DCE2;
+	
+}
+
+.blanco p{
+	padding: 2em!important;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.segundaf{
+	height: 17.82em!important;
+}
+
+.segundaf p{
+	padding: 0.5em!important;
+}
+
+.r{
+	margin-top: -1px!important;
+}
+
+
 /***************mediaqueries*******************/
 @media screen and (max-width:1366px) {
 	.navbar-default .navbar-nav > li > a {
@@ -634,10 +706,36 @@ img{
 	transition: all 1.2s linear;
 }
 
-#galeria img{
-	margin-bottom: 1em;
-}
+	#galeria img{
+		margin-bottom: 1em;
+	}
 
+	.testimonio__item, #testimonios > div > div.col-md-12 > div > div.col-md-3.nopadding.azul.segundaf.r{
+        height: 14.8em!important;
+	}
+	
+
+
+	.testimonio__info {
+    	padding: 0em 1em;
+	}
+
+	.testimonio__item p {
+        font-size: 0.8em;
+	}
+
+	.testimonio__item h4 {
+    	margin-top: 2em;
+    	font-size: 0.9em;
+	}
+
+	#testimonios > div > div.row{
+		margin-bottom: -3.1em;
+	}
+
+	.segundaf p {
+    	padding: 0.3em!important;
+	}
 	
 }
 
@@ -697,6 +795,14 @@ img{
 		height: 25%;
 		text-align: center!important;
 		width: 91.8%;
+	}
+
+	.nopadding{
+		margin-left: 16.66666667%!important;
+	}
+
+	.testimonio__item span img{
+		display: none;
 	}
 
 
