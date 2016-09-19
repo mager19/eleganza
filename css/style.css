@@ -796,13 +796,22 @@ img{
 		text-align: center!important;
 		width: 91.8%;
 	}
+	
+	.testimonio__item{
+		height: auto;
+		margin-top: 2em;
+	}
 
-	.nopadding{
-		margin-left: 16.66666667%!important;
+	.testimonio__item img{
+		width: 70%;
 	}
 
 	.testimonio__item span img{
 		display: none;
+	}
+
+	.azul{
+		background-color: #fff;
 	}
 
 
