@@ -647,6 +647,15 @@ img{
 		padding: 1em 0;
 	}
 
+	.nav > li > a {
+       padding: 10px 9px!important;
+	}
+
+	.nav.navbar-nav {
+    	margin-left: 0em!important;
+    	width: 100%!important;
+   	}
+
 	.nosotros__left {
     	padding-top: 15%;
     	padding-left: 2em!important;
