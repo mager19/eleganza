@@ -1076,6 +1076,23 @@ img{
 	.segundaf p {
     	padding: 0.3em!important;
 	}
+
+	.item__testimonio span {
+    	font-size: 0em;
+    }
+
+    .item__testimonio {
+    	height: 15.4em;
+    }
+
+    .item__testimonio h3 {
+        font-size: 0.8em;
+	}
+
+	.item__testimonio p {
+    	font-size: 0.8em;
+        padding: 0 2em;
+	}
 	
 }
 
@@ -1137,16 +1154,66 @@ img{
 		width: 91.8%;
 	}
 	
-
-
 	.azul{
 		background-color: #fff;
 	}
 
-	.elitem{
-		    margin-left: 16.66666667%!important;
+	#galeria > div > div:nth-child(1) > div.col-md-6.col-xs-12.elitem.oscuro{
+		margin-top: 5em!important;
 	}
 
+	.#galeria > div > div:nth-child(1) > div.col-md-6.col-xs-8.col-xs-offset-2.elitem.oscuro{
+		margin-top: 2em!important;
+	}
+
+	.elitem{
+		margin-left: 16.66666667%!important;
+	}
+
+	#testimonio1 {
+        margin-top: 1em;
+	}
+
+	#testimonio3 {
+       	margin-bottom: 1em;
+	}
+
+	#testimonio4 {
+        margin-top: 1em;
+	}
+
+	.buscar input{
+		padding-right: 17em;
+	}
+
+	.paginacion {
+        margin-top: 2em;
+	}
+
+	.sobre{
+		margin-bottom: 2em;
+	}
+
+	.newsletter2 h3 {
+    	margin-top: 2em;
+	}
+
+	.buscar input {
+    	padding-right: 3em;
+	}
+	
+	.franjaz__item{
+		text-align: center;
+	}
+
+	#franjaz h3 {
+    	font-size: 1.1em;
+    	margin-top: 1em;
+	}
+
+	#info h3 {
+       	font-size: 1.1em;
+    }
 
 }
 
@@ -1237,5 +1304,33 @@ img{
 		width: 87%;
 	}
 
+	.item__testimonio {
+    	height: 12em;
+	}
+
+	.item__testimonio p {
+    	font-size: 0.7em;
+    	padding: 0 1em;
+	}
+
+	.press__item h3 {
+        font-size: 1em;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:320px) {
+	
+	.item__testimonio {
+    	height: 13em;
+	}
+
+	.item__testimonio p {
+    	font-size: 0.6em;
+    	padding: 0 1em;
+	}
 
 }
