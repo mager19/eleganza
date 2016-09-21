@@ -479,7 +479,43 @@ img{
 }
 
 
+.galeria__item2{
+	cursor: pointer;
+	 margin-bottom: 1.7em;
+	 height: 16.7em;
+	 width: 100%;
 
+}
+
+
+
+.galeria__item2:hover{
+	
+}
+
+.galeria__item2 h3{
+	background: rgba(0,0,0,0.4);
+	display: none;
+	padding: 0.8em 0;
+}
+
+.galeria__item2 h3 span{
+	margin-left: 4em;
+	padding-bottom: 1em;
+}
+
+.galeria__item2:hover h3{
+	color: #f9f9f9;
+	font-size: 1.5em;
+	font-family: 'Muli', sans-serif;
+	display: block;
+	position: absolute;
+	top: 65.5%;
+	padding-left: 2em;
+	text-align: center;
+	height: 25%;
+	width: 89.8%;
+}
 
 /*bodas*/
 #boda1{
@@ -523,6 +559,50 @@ img{
 }
 
 
+#boda2a{
+	background-image: url("../img/bodas/boda2a.JPG");
+	background-size: cover;
+}
+
+#boda2-1{
+	background-image: url("../img/bodas/boda2-1.JPG");
+	background-size: cover;
+}
+
+#boda2-2{
+	background-image: url("../img/bodas/boda1.JPG");
+	background-size: cover;
+}
+
+#boda2-3{
+	background-image: url("../img/bodas/boda2-3.JPG");
+	background-size: cover;
+}
+
+#boda2-4{
+	background-image: url("../img/bodas/boda2-4.JPG");
+	background-size: cover;
+}
+
+#boda2-5{
+	background-image: url("../img/bodas/boda2-5.JPG");
+	background-size: cover;
+}
+
+#boda2-6{
+	background-image: url("../img/bodas/boda2-6.JPG");
+	background-size: cover;
+}
+
+#boda2-7{
+	background-image: url("../img/bodas/boda2-7.JPG");
+	background-size: cover;
+}
+
+#boda2-8{
+	background-image: url("../img/bodas/boda2-8.JPG");
+	background-size: cover;
+}
 
 /* Testimonios */
 

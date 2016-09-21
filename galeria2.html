@@ -16,6 +16,8 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 </head>
 
 <body>
@@ -80,7 +82,9 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="galeria__title">
-					<img src="img/bodas.jpg" alt="bodas">
+					<a class="fancybox" rel="group" href="img/bodas/boda2a.jpg">
+						<img src="img/bodas/boda2a.jpg" alt="bodas">
+					</a>
 				</div>
 				
 			</div>
@@ -88,16 +92,16 @@
 			<div class="col-md-6">
 				<div class="row">
 					<div class="col-md-6 col-xs-6 ">
-						<a href="galeria2.html">
-							<div class="galeria__item" id="boda1">
+						<a class="fancybox" rel="group" href="img/bodas/boda2-1.jpg">
+							<div class="galeria__item2" id="boda2-1">
   								<h3>MARCELA<br> <span>& PAUL</span></h3>								  
 							</div>
 						</a>
 					</div>
 
 					<div class="col-md-6 col-xs-6 ">
-						<a href="galeria2.html">
-							<div class="galeria__item" id="boda2">
+						<a class="fancybox" rel="group" href="img/bodas/boda1.jpg">
+							<div class="galeria__item2" id="boda2-2">
   								<h3>MARCELA<br> <span>& PAUL</span></h3>
 							</div>
 						</a>
@@ -106,16 +110,16 @@
 
 				<div class="row">
 					<div class="col-md-6 col-xs-6 ">
-						<a href="galeria2.html">
-							<div class="galeria__item" id="boda3">
+						<a class="fancybox" rel="group" href="img/bodas/boda2-3.jpg">
+							<div class="galeria__item2" id="boda2-3">
   								<h3>MARCELA<br> <span>& PAUL</span></h3>
 							</div>
 						</a>
 					</div>
 
 					<div class="col-md-6 col-xs-6 ">
-						<a href="galeria2.html">
-							<div class="galeria__item" id="boda4">
+						<a class="fancybox" rel="group" href="img/bodas/boda2-4.jpg">
+							<div class="galeria__item2" id="boda2-4">
   								<h3>MARCELA<br> <span>& PAUL</span></h3>
 							</div>
 						</a>
@@ -124,32 +128,32 @@
 			</div>
 
 			<div class="col-md-3 col-xs-6">
-				<a href="galeria2.html">
-					<div class="galeria__item" id="boda5">
+				<a class="fancybox" rel="group" href="img/bodas/boda2-5.jpg">
+					<div class="galeria__item2" id="boda2-5">
   						<h3>MARCELA<br> <span>& PAUL</span></h3>
 					</div>
 				</a>
 			</div>
 
 			<div class="col-md-3 col-xs-6">
-				<a href="galeria2.html">
-					<div class="galeria__item" id="boda6">
+				<a class="fancybox" rel="group" href="img/bodas/boda2-6.jpg">
+					<div class="galeria__item2" id="boda2-6">
   						<h3>MARCELA<br> <span>& PAUL</span></h3>
 					</div>
 				</a>
 			</div>
 
 			<div class="col-md-3 col-xs-6">
-				<a href="galeria2.html">
-					<div class="galeria__item" id="boda7">
+				<a class="fancybox" rel="group" href="img/bodas/boda2-7.jpg">
+					<div class="galeria__item2" id="boda2-7">
   						<h3>MARCELA<br> <span>& PAUL</span></h3>
 					</div>
 				</a>
 			</div>
 
 			<div class="col-md-3 col-xs-6">
-				<a href="galeria2.html">
-					<div class="galeria__item" id="boda8">
+				<a class="fancybox" rel="group" href="img/bodas/boda2-8.jpg">
+					<div class="galeria__item2" id="boda2-8">
   						<h3>MARCELA<br> <span>& PAUL</span></h3>
 					</div>
 				</a>
@@ -192,4 +196,12 @@
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
 </html>
